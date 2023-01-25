@@ -1,0 +1,43 @@
+@media only screen and (max-width:768px) {
+	.container{
+		width:90%;
+	}
+	
+	.main-area {
+		padding:70px 0;
+	}
+	
+	.main-area .login-form {
+		width:100%;
+		box-sizing:border-box;
+	}
+	
+	.main-area .facebook-image img {
+		width:210px;
+	}
+	
+	.main-area .facebook-help h3 {
+		font-size:20px;
+		margin:2px 0 0 22px;
+	}
+}
+@media only screen and (max-width:414px) {
+	.w-50 {
+		width:100%;
+		float:none;
+	}
+	.main-area .facebook-image {
+		margin-top:0;
+		text-align:center;
+	}
+	.main-area {
+		padding:15px 0; 
+	}
+	.main-area .facebook-help h3 {
+		font-size:18px;
+		margin:2px 0 30px 22px;
+		text-align:center;
+		
+	}
+	
+}

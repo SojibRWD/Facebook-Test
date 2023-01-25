@@ -1,0 +1,209 @@
+body {
+	margin: o;
+	font-family:verdana;
+}
+
+/*======================*/
+/*common styling start*/
+/*======================*/
+.w-50 {
+	width:50%;
+	float:left;
+	box-sizing:border-box;
+}
+
+.container {
+	overflow:hidden;
+	width:80%;
+	margin:auto;
+}
+
+.line {
+	border-top:1px solid #dadde1;
+	margin:20px 0;
+}
+
+/*======================*/
+/*common styling end*/
+/*======================*/
+
+/*======================*/
+/*main area start*/
+/*======================*/
+
+.main-area {
+	background: #f0f2f5;
+	overflow:hidden;
+	padding:133px 0;
+}
+
+.main-area .facebook-image {
+	margin-top:40px;
+}
+
+.main-area .facebook-image img {
+	width:300px;
+}
+.main-area .facebook-help h3 {
+	margin: -6px 0 0 28px;
+	font-size:26px;
+	color:#1c1e3b;
+	font-weight:normal;
+}
+.main-area .login-form {
+	background:white;
+	padding:10px 13px;
+	border-radius:5px;
+	text-align:center;
+	width:67%;
+	margin:auto;
+}
+.main-area .login-form input {
+	display:block;
+	width:100%;
+	box-sizing:border-box;
+}
+.main-area .login-form input[type="text"],
+.main-area .login-form input[type="password"] {
+	padding:13px;
+	font-size:15px;
+	margin-bottom:15px;
+	border-radius:5px;
+	border:1px solid #c4c6d0;
+}
+::placeholder {
+	color:#cac6ca;
+}
+.main-area .login-form input[type="submit"] {
+	background:#1877f2;
+	color:white;
+	padding:13px 0;
+	border:none;
+	border-radius:5px;
+	font-weight:bold;
+	font-size:18px;
+	font-family:arial; 
+	margin-bottom:18px;
+}
+.main-area .login-form input[type="text"]:focus,
+.main-area .login-form input[type="password"]:focus {
+	border:1px solid #1877f2;
+}
+.main-area .login-form .forgot-link {
+	color:#1877f2;
+	text-decoration:none;
+	font-size:13px;
+}
+.main-area .login-form .forgot-link:hover {
+	text-decoration:underline;
+}
+
+.main-area .login-form .new-acc-link {
+	background:#42b72a;
+	padding:15px 12px;
+	display:inline-block;
+	color:white;
+	text-decoration:none;
+	font-family:arial;
+	font-weight:bold;
+	font-size:18px;
+	border-radius:5px;
+}
+
+.main-area .create-page {
+	text-align:center;
+}
+.main-area .create-page a {
+	text-decoration:none;
+	color:#1c1e21;
+	font-weight:bold;
+}
+.main-area .create-page p {
+	color:#1c1e21;
+	font-size:13px;
+}
+.main-area .create-page a:hover {
+	text-decoration:underline;
+}
+
+
+
+/*======================*/
+/*main area end  */
+/*======================*/
+
+
+/*======================*/
+/*footer area start  */
+/*======================*/
+
+.footer-area {
+	padding:30px 0;
+}
+.footer-area .languages ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	color:#94979b;
+	font-size:14px;
+	overflow:hidden;
+}
+.footer-area .languages ul a {
+	color:#94979b;
+	text-decoration:none;
+	
+}
+.footer-area .languages ul li {
+	float:left;
+	margin-right:15px;
+}
+.footer-area .languages .plus {
+	background:#f5f6f7;
+	padding:2px 12px;
+	color:#697180;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:20px;
+	border-radius:5px;
+	
+}
+.footer-area .languages ul a:hover {
+	text-decoration:underline;
+}
+.footer-area .custom-links ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	color:#94979b;
+	font-size:14px;
+	overflow:hidden;
+}
+.footer-area .custom-links ul a {
+	color:#94979b;
+	text-decoration:none;
+	
+}
+.footer-area .custom-links ul li {
+	float:left;
+	margin-right:15px;
+	margin-bottom:5px;
+	text-decoration:none;
+}
+.footer-area .copyright {
+	font-size:14px;
+	color:#8888bd;
+	margin-top:45px;
+}
+.footer-area .custom-links ul li:hover {
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+/*======================*/
+/*footer area end  */
+/*======================*/
